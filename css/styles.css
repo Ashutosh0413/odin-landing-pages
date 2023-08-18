@@ -138,6 +138,11 @@ body{
 .advert-info{
     color:#F9FAF8
 }
+
+.quote-signature {
+    margin: 8px 0px 0px auto;
+    padding:10px;
+}
 .footer{
     background: #1F2937; 
     color:#F9FAF8;
