@@ -74,14 +74,70 @@ body{
     color:#F9FAF8;
   }
 
-  .hero-button{
+  .hero-button {
     color:#F9FAF8;
     background: #3882F6;
     border-radius: 16px;
     border-color: #F9FAF8;
+    height: 45px;
+    width: 100px;
+  }
+  .hero-button:hover{
+    cursor: pointer;
   }
 
+.hero-logo{
+    border-radius: 180px;
+}
 
+.content{
+    background: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.panel-icon{
+  width: 160px;
+  height: 160px;
+  border:solid;
+  border-color: #3882F6;
+  border-radius: 10px;
+}
+
+.panel {
+    width: 250px;
+    height: 200px;
+    margin: 32px;
+    margin-bottom: 24px;
+    padding-bottom: 48px;
+  }
+.panels{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.panel-text{
+    font-size: 36px;
+    font-weight: 900;
+    color:#1F2937
+}
+
+
+.Quote{
+    background-color: #E5E7EB;
+
+}
+.quote-text{
+    font-size: 36px;
+}
+.Advert{
+    background-color: #3882F6;
+}
+.advert-info{
+    color:#F9FAF8
+}
 .footer{
     background: #1F2937; 
     color:#F9FAF8;
