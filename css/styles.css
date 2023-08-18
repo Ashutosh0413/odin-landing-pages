@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+    font-family: Roboto,sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    display: flex;
+    background: #1F2937;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+
